@@ -17,7 +17,17 @@ password=<%=request.getParameter("password")%>
 <%
     String username=request.getParameter("username");
     String password=request.getParameter("password");
-    if ()
+    if (username.equals("admin")&&password.equals("123"))
+    {
+        out.println("欢迎"+username);
+        response.sendRedirect("shopping.jsp");
+    }
+    else
+    {
+        out.println("登录失败，请重新登录");
+        response.sendRedirect("login.html");
+
+    }
 %>
 </body>
 </html>
