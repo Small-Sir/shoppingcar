@@ -10,9 +10,12 @@
   <head>
     <title>购物车</title>
   </head>
-  <body>
-  欢迎购物<<br>
+  <body style="background-color:#F0FFFF">
+  <div align="center" style="color:red">
+    欢迎购物
+  </div>
+
   </body>
   <br>
-  <a href="/login.html">点击登录</a>
+  <a href="/login.html">点击进入登录界面</a>
 </html>

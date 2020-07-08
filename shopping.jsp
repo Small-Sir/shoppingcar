@@ -11,7 +11,8 @@
 <head>
     <title>购物列表</title>
 </head>
-<body>
+<body background="picture/fruit.jpg" style="background-repeat: no-repeat;background-position: center center;backgroud-size:100% 100%;
+background-attachment: fixed ;background-color:	#F0FFFF" >
 <h1 align="center" style="color: aqua">
     商品清单
 </h1>
@@ -38,6 +39,6 @@
     </tr>
 
 </table>
-<a href="login.html" >登陆界面</a>
+<a href="login.html" >返回登陆界面</a>
 </body>
 </html>
