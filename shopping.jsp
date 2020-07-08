@@ -38,6 +38,6 @@
     </tr>
 
 </table>
-<a href="login.html" >返回登陆界面</a>
+<a href="login.html" >登陆界面</a>
 </body>
 </html>
